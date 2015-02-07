@@ -11,8 +11,7 @@ Instructions
 The game will be over when the players run out or the 30 seconds run out.
 
 
-References: Reviewed and got information from:
-https://www.udacity.com/course/viewer#!/c-ud015-nd
+References: completed the object-oriented course: https://www.udacity.com/course/viewer#!/c-ud015-nd Also reviewed and got helpful information from:
 http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html
 http://www.w3schools.com/html/html5_canvas.asp
 http://davidwalsh.name/canvas-demos
