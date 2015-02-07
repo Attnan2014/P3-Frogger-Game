@@ -42,7 +42,9 @@
     function get(url) {
         return resourceCache[url];
     }
-
+   /* This function determines if all of the images that have been requested
+     * for loading have in fact been completed loaded.
+     */
     function isReady() {
         var ready = true;
         for(var k in resourceCache) {
@@ -57,7 +59,9 @@
     function onReady(func) {
         readyCallbacks.push(func);
     }
-
+    /* This object defines the publicly accessible functions available to
+     * developers by creating a global Resources object.
+     */
     window.Resources = {
         load: load,
         get: get,
