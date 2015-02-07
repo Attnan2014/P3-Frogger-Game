@@ -9,3 +9,11 @@ Instructions
 5.	Do not swim in the waters of the tributaries!
 
 The game will be over when the players run out or the 30 seconds run out.
+
+
+References: Reviewed and got information from:
+https://www.udacity.com/course/viewer#!/c-ud015-nd
+http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html
+http://www.w3schools.com/html/html5_canvas.asp
+http://davidwalsh.name/canvas-demos
+http://www.codecademy.com/
