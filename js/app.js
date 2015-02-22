@@ -61,11 +61,6 @@ Player.prototype.startPosY = function() {
     return startY;
 }
 
-Player.prototype.update = function(dt) {
-    this.x*dt;
-    this.y*dt;
-}
-
 Player.prototype.reset = function() {
     this.x = this.startPosX();
     this.y = this.startPosY();
