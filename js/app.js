@@ -7,18 +7,18 @@ var Enemy = function() {
     this.y = this.startPosY();
     //some random speeds for our enemies
     this.speed = [30,100,170,250,320,500];
-}
+};
 
 //Randomize the initial X and Y-value starting positions
 Enemy.prototype.startPosX = function() {
     var startX = -(Math.round(Math.random()*400));
     return startX;
-}
+};
 
 Enemy.prototype.startPosY = function() {
     var startY = this.enemyY[Math.round(Math.random()*2)];
     return startY;
-}
+};
 
 // Parameter: dt, a time delta between ticks
 Enemy.prototype.update = function(dt) {
@@ -97,9 +97,9 @@ Player.prototype.handleInput = function (num) {
 var Life = function() {
     this.lifeImg = 'images/Star_small.png';
     this.number = 3;
-}
+};
 
-//draws the hearts for each life.
+//draws the stars for each life.
 Life.prototype.render = function() {
     var imgX = 0;
     for(x = 0; x < this.number; x++) {
